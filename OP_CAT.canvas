@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"6965e8933448608d","type":"file","file":"quantum_cats.png","x":-680,"y":-520,"width":800,"height":787},
+		{"id":"63154dedf6d2bd57","type":"text","text":"O que é o OP_CAT","x":200,"y":-292,"width":250,"height":60},
+		{"id":"2b1a17752c69ba0d","type":"text","text":"Criada em 2009\n\nFoi a função utilizada para criar a primeira transação do Bitcoin a armazenar dados em satoshis em 2013, basicamente Erik Voorhees homenageou seu gato Mittens através da blockchain.","x":165,"y":-126,"width":320,"height":326},
+		{"id":"448a2142901d2d3f","type":"text","text":"Como Funciona?","x":600,"y":-292,"width":250,"height":60},
+		{"id":"008e7b698aaa1ac3","type":"text","text":"Basicamente, a função OP_CAT é utilizada para concatenar dados binários, strings ou bytes.\n\nsendo assim, se aplicarmos a função OP_CAT em \npush \"Hello, \"\npush \"World!\"\nOP_CAT\n\"Hello, World\"","x":565,"y":-126,"width":320,"height":326},
+		{"id":"57e43ad2b21e6600","type":"text","text":"O que aconteceu com OP_CAT?","x":1020,"y":-292,"width":250,"height":60},
+		{"id":"45cd3b59c0c6cd7e","type":"text","text":"A função OP_CAT foi desativada em 2010, devido a problemas de memoria que existia na epoca.\n","x":985,"y":-126,"width":320,"height":326},
+		{"id":"68b1cdd1b055dea3","type":"text","text":"O SALVADOR DO OP_CAT","x":1440,"y":-292,"width":250,"height":60},
+		{"id":"1dd3c4536fe2ad23","type":"text","text":"Em novembro de 2021, com a atualização Taproot do Bitcoin, o OP_CAT foi reativado!\n\nELES ESTÃO VIVOS!!\n\nTaproot possibilitou uma nova forma de codificar as transações do bitcoin. economizando o uso de memoria dos mineradores, sendo mais eficiente.","x":1405,"y":-126,"width":320,"height":326},
+		{"id":"e067fa4166e18c8f","type":"text","text":"Qual a importancia do OP_CAT","x":1840,"y":-292,"width":250,"height":56},
+		{"id":"0fd3787f1dc4c432","type":"text","text":"OP_CAT foi onde iniciou o primeiro registro de \"Ordinals\" na rede bitcoin, é ele que nos permite viver todo esse movimento atual, registrar, comprar e vender \"Ordinals\" através da rede bitcoin, o principal salvador foi justamente o TAPROOT!!!!","x":1805,"y":-126,"width":320,"height":326},
+		{"id":"1100dcd89f15b4cb","type":"file","file":"WhatsApp Image 2024-01-19 at 00.48.27.jpeg","x":-680,"y":440,"width":574,"height":1020},
+		{"id":"4596ada14df0a41b","type":"text","text":"SLINKY","x":-342,"y":-600,"width":125,"height":60}
+	],
+	"edges":[
+		{"id":"6805859ccaf18f7d","fromNode":"63154dedf6d2bd57","fromSide":"bottom","toNode":"2b1a17752c69ba0d","toSide":"top"},
+		{"id":"a849cf141d6cbc62","fromNode":"63154dedf6d2bd57","fromSide":"right","toNode":"448a2142901d2d3f","toSide":"left"},
+		{"id":"db136cd4913a5513","fromNode":"448a2142901d2d3f","fromSide":"bottom","toNode":"008e7b698aaa1ac3","toSide":"top"},
+		{"id":"c2473037d1603871","fromNode":"448a2142901d2d3f","fromSide":"right","toNode":"57e43ad2b21e6600","toSide":"left"},
+		{"id":"132f65de74eec331","fromNode":"57e43ad2b21e6600","fromSide":"bottom","toNode":"45cd3b59c0c6cd7e","toSide":"top"},
+		{"id":"24209c7b636999cb","fromNode":"57e43ad2b21e6600","fromSide":"right","toNode":"68b1cdd1b055dea3","toSide":"left"},
+		{"id":"46be036e98ed2599","fromNode":"68b1cdd1b055dea3","fromSide":"bottom","toNode":"1dd3c4536fe2ad23","toSide":"top"},
+		{"id":"e0c2bae4b81a8649","fromNode":"68b1cdd1b055dea3","fromSide":"right","toNode":"e067fa4166e18c8f","toSide":"left"},
+		{"id":"9ecd9f58e5c3e71c","fromNode":"e067fa4166e18c8f","fromSide":"bottom","toNode":"0fd3787f1dc4c432","toSide":"top"},
+		{"id":"c3f09d9c7d20f3e4","fromNode":"4596ada14df0a41b","fromSide":"bottom","toNode":"6965e8933448608d","toSide":"top"}
+	]
+}
